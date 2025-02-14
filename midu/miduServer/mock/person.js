@@ -1,0 +1,25 @@
+export const person = {
+  id: "1",
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  email: "john.doe@example.com",
+  address: {
+    street: "123 Main St",
+    city: "New York",
+    state: "NY",
+    zipCode: "10001",
+    country: "USA",
+  },
+  phone: "+1-555-123-4567",
+  occupation: "Software Engineer",
+  company: "Tech Corp",
+  isEmployed: true,
+  education: {
+    degree: "Bachelor of Science",
+    major: "Computer Science",
+    university: "State University",
+    graduationYear: 2015,
+  },
+  skills: ["JavaScript", "React", "Node.js", "Python", "SQL"],
+};
